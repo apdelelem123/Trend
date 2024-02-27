@@ -46,20 +46,20 @@ pm_buttons = [
     [
         InlineKeyboardButton(text="-› التحكم .", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="-› القناة .", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="-› T𝗛𝗘 𝗦𝗢𝗥𝗨𝗦 .", url=config.SUPPORT_CHAT),
     ],
     [
-        InlineKeyboardButton(text="-› المنشئ .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="-› D𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 .", user_id=config.OWNER_ID),
     ],
 ]
 
 
 gp_buttons = [
     [
-        InlineKeyboardButton(text="-› القناة .", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="-› قناة السورس .", url=config.SUPPORT_CHANNEL),
     ],
     [
-        InlineKeyboardButton(text="-› المنشى .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="-› D𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 .", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -75,7 +75,7 @@ helpmenu = [
         InlineKeyboardButton(text="-› المنشئين .", callback_data="fallen_cb sudo"),
     ],
     [
-        InlineKeyboardButton(text="-› امسح .", callback_data="close"),
+        InlineKeyboardButton(text="-› تخطي .", callback_data="close"),
     ],
 ]
 
@@ -84,6 +84,6 @@ help_back = [
     [InlineKeyboardButton(text="-› الفريق .", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="-› ارجع .", callback_data="fallen_help"),
-        InlineKeyboardButton(text="-› امسح .", callback_data="close"),
+        InlineKeyboardButton(text="-› تخطي .", callback_data="close"),
     ],
 ]
