@@ -46,10 +46,10 @@ pm_buttons = [
     [
         InlineKeyboardButton(text="-› التحكم .", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="-› T𝗛𝗘 𝗦𝗢𝗥𝗨𝗦 .", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="-› قناة السورس .", url=config.SUPPORT_CHAT),
     ],
     [
-        InlineKeyboardButton(text="-› D𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="-› مطور السورس .", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -59,7 +59,7 @@ gp_buttons = [
         InlineKeyboardButton(text="-› قناة السورس .", url=config.SUPPORT_CHANNEL),
     ],
     [
-        InlineKeyboardButton(text="-› D𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="-› مطور السورس .", user_id=config.OWNER_ID),
     ],
 ]
 
